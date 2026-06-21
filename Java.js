@@ -1,6 +1,6 @@
-console.log("Hello");
-let x = 5;
-let y = 5;
+// console.log("Hello");
+// let x = 5;
+// let y = 5;
 
 
 //This is add function
@@ -25,3 +25,9 @@ function age(a, b){
 }
 
 age(2026, 1994);
+// adding this comment just to test if github is working
+let x = 5;
+let y = 10;
+let addition = x + y;
+
+console.log (addition);
