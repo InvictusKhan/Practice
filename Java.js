@@ -32,6 +32,16 @@
 
 // console.log (addition);
 
-let x;
-x = 5;
-console.log(x);
+// let x;
+// x = 5;
+// console.log(x);
+let isLaptopGaming = false;
+
+// console.log(isLaptopGaming);
+
+if (isLaptopGaming === true) {
+    console.log(`This is a gaming laptop`);
+}
+else{
+    console.log(`This is not a gaming laptop`);
+}
