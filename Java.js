@@ -35,13 +35,40 @@
 // let x;
 // x = 5;
 // console.log(x);
-let isLaptopGaming = false;
+// let isLaptopGaming = false;
 
-// console.log(isLaptopGaming);
+// // console.log(isLaptopGaming);
 
-if (isLaptopGaming === true) {
-    console.log(`This is a gaming laptop`);
+// if (isLaptopGaming === true) {
+//     console.log(`This is a gaming laptop`);
+// }
+// else{
+//     console.log(`This is not a gaming laptop`);
+// }
+// let a = 5;
+// let b = 10;
+// let c = 9;
+
+// if (a > b){
+//     console.log(`a is greater than b`);
+// }
+// else if (b > c){
+//     console.log(`b is greater than c`);
+// }   
+// else{
+//     console.log(`c is greater than a and b`);
+// }
+
+let a = 5;
+let b = 15;
+let c = 4;
+
+if (a > b){
+    console.log(`a is bigger than b`);
 }
-else{
-    console.log(`This is not a gaming laptop`);
+else if (b > c ){
+    console.log(`b is Greater than c`);
+}
+else {
+    console.log(`C is greated than both a and b`);
 }
