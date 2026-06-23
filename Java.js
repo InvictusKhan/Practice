@@ -98,6 +98,11 @@
 // students = students % 7;
 // console.log(students);
 
-let x = 5;
-x = String(x);
-console.log(typeof x);
+// let x = 5;
+// x = String(x);
+// console.log(typeof x);
+
+
+const x = 5;
+// x = 7;
+console.log(x);
