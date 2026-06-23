@@ -59,16 +59,45 @@
 //     console.log(`c is greater than a and b`);
 // }
 
-let a = 5;
-let b = 15;
-let c = 4;
+// let a = 5;
+// let b = 15;
+// let c = 4;
 
-if (a > b){
-    console.log(`a is bigger than b`);
-}
-else if (b > c ){
-    console.log(`b is Greater than c`);
-}
-else {
-    console.log(`C is greated than both a and b`);
-}
+// if (a > b){
+//     console.log(`a is bigger than b`);
+// }
+// else if (b > c ){
+//     console.log(`b is Greater than c`);
+// }
+// else {
+//     console.log(`C is greated than both a and b`);
+// }
+
+
+// let students = 5;
+// students = students + 1;
+// console.log(students);
+
+// let students = 5;
+// students = students * 6;
+// console.log(students);
+
+// let students = 5;
+// students = students / 2;
+// console.log(students);
+
+// let students = 5;
+// students = students % 2;
+// // console.log(students);
+
+// let students = 5;
+// students = students ** 2;
+// console.log(students);
+
+// let students = 20;
+// students = students % 7;
+// console.log(students);
+
+let x = 5;
+x = String(x);
+console.log(typeof x);
