@@ -103,6 +103,27 @@
 // console.log(typeof x);
 
 
-const x = 5;
-// x = 7;
-console.log(x);
+// const x = 5;
+// // x = 7;
+// console.log(x);
+
+
+
+let age = 20;
+let isBorn = false;
+
+if (age >= 20){
+    console.log(`You are old enough to drive`);
+    if (isBorn === true){
+        console.log(`You are born`);
+    }
+    else{
+        console.log(`You are not born`);
+    }
+}
+else if (age == 19){
+    console.log(`You are exactly 19 years old`);
+}
+else{
+    console.log(`You are not old enough to drive`);
+}
