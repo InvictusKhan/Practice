@@ -109,21 +109,52 @@
 
 
 
-let age = 20;
-let isBorn = false;
+// let age = 20;
+// let isBorn = false;
 
-if (age >= 20){
-    console.log(`You are old enough to drive`);
-    if (isBorn === true){
-        console.log(`You are born`);
-    }
-    else{
-        console.log(`You are not born`);
-    }
-}
-else if (age == 19){
-    console.log(`You are exactly 19 years old`);
-}
-else{
-    console.log(`You are not old enough to drive`);
-}
+// if (age >= 20){
+//     console.log(`You are old enough to drive`);
+//     if (isBorn === true){
+//         console.log(`You are born`);
+//     }
+//     else{
+//         console.log(`You are not born`);
+//     }
+// }
+// else if (age == 19){
+//     console.log(`You are exactly 19 years old`);
+// }
+// else{
+//     console.log(`You are not old enough to drive`);
+// }
+
+// And or Not operator
+
+// let temp = 30;
+
+// if (temp <= 30 && temp >= 20){
+//     console.log(`The weather is pleasant`);
+
+// } 
+// else{
+//     console.log(`The weather is not pleasant`);
+// }
+
+// let temp = 25;
+
+// if (temp >= 26 || temp <=24){
+//     console.log(`The weather is pleasant`);
+
+// }
+// else{
+//     console.log(`The weather is not pleasant`);
+// }
+
+// let isRaining = true;
+
+// if (isRaining){
+//     console.log (`Its not raining`);
+// }
+// else{
+//     console.log(`Its raining`);
+// }
