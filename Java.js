@@ -159,11 +159,23 @@
 //     console.log(`Its raining`);
 // }
 
-let age = 20;
+// let age = 20;
 
-if (age !== 20){
-    console.log(`You are 20 years old`);
+// if (age !== 20){
+//     console.log(`You are 20 years old`);
+// }
+// else{
+//     console.log(`You are not 20 years old`);
+// }
+
+
+let x = 20;
+
+while (x <= 30){
+    console.log(x);
+    x++;
 }
-else{
-    console.log(`You are not 20 years old`);
+
+if (x > 30) {
+    console.log(`x is greater than 30`);
 }
