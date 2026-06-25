@@ -158,3 +158,12 @@
 // else{
 //     console.log(`Its raining`);
 // }
+
+let age = 20;
+
+if (age !== 20){
+    console.log(`You are 20 years old`);
+}
+else{
+    console.log(`You are not 20 years old`);
+}
