@@ -169,13 +169,53 @@
 // }
 
 
-let x = 20;
+// let x = 20;
 
-while (x <= 30){
-    console.log(x);
-    x++;
-}
+// while (x <= 30){
+//     console.log(x);
+//     x++;
+// }
 
-if (x > 30) {
-    console.log(`x is greater than 30`);
+// if (x > 30) {
+//     console.log(`x is greater than 30`);
+// }
+
+// let name = "Fasih";
+// while (name !== "Fasih"){
+//     console.log(name);
+// }
+// console.log(`Name Incorrect`);
+
+// let x = 5;
+// for (let i = 0; i < x; i++){
+//     console.log(x);
+//     x++;
+// }
+
+// let x = 30;
+
+// for (let i = 0; i < 100; i++){
+//     console.log(x);
+//     x++;
+// }
+// console.log(x);
+// let x = 100;
+
+// for (i = 0; i < 201; i++){
+//     console.log(x);
+//     x++;
+// }
+
+let x = 1
+
+for (i = 0; i <= 100; i++){
+    if(i === 69){
+        console.log(`Reached goal`)
+        
+        continue
+    }
+    else{
+        x++;
+        console.log(x);
+    }
 }
