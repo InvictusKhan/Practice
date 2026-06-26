@@ -220,22 +220,36 @@
 //     }
 // }
 
-let x = 10;
-function add(i, q){
-    result = i + q;
-    console.log(result);
-}
-function subtract(a, b){
-    result = a - b;
-    console.log(result);
-}
-subtract(50 , 25);
 
-function multiply(a, b){
-    result = a * b;
-    console.log(result);
-}
-multiply(2, 2);
-add(2, 2);
-subtract(6, 2);
-console.log(x);
+// function add(i, q){
+//     let answer = i + q;
+//     return answer;
+// }
+
+
+// // function subtract(a, b){
+// //     result = a - b;
+// //     console.log(result);
+// // }
+// // subtract(50 , 25);
+
+// // function multiply(a, b){
+// //     result = a * b;
+// //     console.log(result);
+// // }
+// // multiply(2, 2);
+// let result = add(2, 2);
+// console.log (result);
+// // subtract(6, 2);
+// // console.log(x);
+
+
+// function isEven(number){
+//     if (number % 2 === 0){
+//         console.log(true);
+//     }
+//     else{
+//         console.log(false);
+//     }
+// }
+// isEven(11);
