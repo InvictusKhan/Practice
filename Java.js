@@ -206,16 +206,36 @@
 //     x++;
 // }
 
-let x = 1
+// let x = 1
 
-for (i = 0; i <= 100; i++){
-    if(i === 69){
-        console.log(`Reached goal`)
+// for (i = 0; i <= 100; i++){
+//     if(i === 69){
+//         console.log(`Reached goal`)
         
-        continue
-    }
-    else{
-        x++;
-        console.log(x);
-    }
+//         continue
+//     }
+//     else{
+//         x++;
+//         console.log(x);
+//     }
+// }
+
+let x = 10;
+function add(i, q){
+    result = i + q;
+    console.log(result);
 }
+function subtract(a, b){
+    result = a - b;
+    console.log(result);
+}
+subtract(50 , 25);
+
+function multiply(a, b){
+    result = a * b;
+    console.log(result);
+}
+multiply(2, 2);
+add(2, 2);
+subtract(6, 2);
+console.log(x);
