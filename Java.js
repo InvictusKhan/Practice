@@ -254,9 +254,18 @@
 // }
 // isEven(11);
 
-let games = ["RE8", "Lies of P", "Metro Exodus"];
-// games.push();
-// console.log(games);
+// let games = ["RE8", "Lies of P", "Metro Exodus"];
+// // games.push();
+// // console.log(games);
 
+
+// console.log(count);
+
+let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
 let count = games.length;
-console.log(count);
+let counter = 0;
+for(i = 0; i<count; i++){
+    console.log(games[counter]);
+    counter++;
+    
+}
