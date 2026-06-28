@@ -261,11 +261,20 @@
 
 // console.log(count);
 
-let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
-let count = games.length;
-let counter = 0;
-for(i = 0; i<count; i++){
-    console.log(games[counter]);
-    counter++;
+// let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
+// let count = games.length;
+// let counter = 0;
+// for(i = 0; i<count; i++){
+//     console.log(games[counter]);
+//     counter++;
     
-}
+// }
+
+// let games = ("RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia");
+// let way = [...games];
+// console.log(way);
+
+let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
+let oldGames = ["Sekiro", "Uncharted", "Devil may cry"];
+let allGames = [...games, ...oldGames];
+console.log(allGames);
