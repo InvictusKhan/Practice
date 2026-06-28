@@ -253,3 +253,10 @@
 //     }
 // }
 // isEven(11);
+
+let games = ["RE8", "Lies of P", "Metro Exodus"];
+// games.push();
+// console.log(games);
+
+let count = games.length;
+console.log(count);
