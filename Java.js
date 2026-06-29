@@ -303,13 +303,55 @@
 // hello(bye);
 
 
-function firstSum(callback, x, y){
-    let result = x + y;
-    callback(result);
-}
+// function firstSum(callback, x, y){
+//     let result = x + y;
+//     callback(result);
+// }
 
-function display(result){
-    console.log(`Your Total Is $${result}`);
-}
+// function display(result){
+//     console.log(`Your Total Is $${result}`);
+// }
 
-firstSum(display, 5, 10);
+// firstSum(display, 5, 10);
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+
+// function show(display){
+//     console.log(display);
+// }
+
+// numbers.forEach(show);
+
+
+// let numbers = [5, 10, 15, 20, 25, 30];
+
+
+
+// numbers.forEach(double);
+// numbers.forEach(display);
+
+// function double(element, index, array){
+//     array[index] = element * 2;
+// }
+
+// function display(show){
+//     console.log(show);
+// }
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let square = numbers.map(double);
+// square.forEach(display);
+// numbers.forEach(display);
+
+
+// function double(element){
+//     return element * 2;
+// }
+// function display(element){
+//     console.log(element);
+// }
+
