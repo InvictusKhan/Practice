@@ -274,7 +274,42 @@
 // let way = [...games];
 // console.log(way);
 
-let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
-let oldGames = ["Sekiro", "Uncharted", "Devil may cry"];
-let allGames = [...games, ...oldGames];
-console.log(allGames);
+// let games = ["RE8", "Lies of P", "Metro Exodus", "Tomb Raider", "Thymesia"];
+// let oldGames = ["Sekiro", "Uncharted", "Devil may cry"];
+// let allGames = [...games, ...oldGames];
+// console.log(allGames);
+
+
+// let game1 = "RE8"
+// let game2 = "Lies of P"
+// let game3 = "Metro Exodus"
+// let game4 = "Sekiro"
+
+// function games (...games){
+//     console.log(...games);
+// }
+// games(game1, game2, game3, game4);
+
+// function hello(callback){
+//     console.log(`Hello`);
+//     callback()
+// }
+
+
+// function bye(){
+//     console.log(`Bye`);
+// }
+
+// hello(bye);
+
+
+function firstSum(callback, x, y){
+    let result = x + y;
+    callback(result);
+}
+
+function display(result){
+    console.log(`Your Total Is $${result}`);
+}
+
+firstSum(display, 5, 10);
