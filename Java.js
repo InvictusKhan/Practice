@@ -355,3 +355,27 @@
 //     console.log(element);
 // }
 
+
+// let age = [10, 20, 30, 40, 50];
+
+// let adults = age.filter(forAdults);
+// let kids = age.filter(forKids);
+// console.log(kids);
+
+// function forAdults(element){
+//     return element >= 35;
+// }
+
+// function forKids(element){
+//     return element <= 30;
+// }
+
+
+// let ItemPrices = [100, 250, 300, 500, 1000];
+
+// let total = ItemPrices.reduce(sum);
+// console.log(total);
+
+// function sum(previous, next){
+//     return previous + next;
+// }
