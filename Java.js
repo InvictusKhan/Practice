@@ -456,3 +456,35 @@
 // }
 // console.log(person1);
 // person1.eat()
+
+
+// let person1 = {
+//     firstName: "Fasih",
+//     lastName: "Khan",
+//     age: "32",
+//     employed: true,
+//     isEmployed: function(){
+//         console.log(this.employed)
+//     },
+//     sayData: function(){
+//         console.log(`My name is ${this.firstName} ${this.lastName}, and my age is ${this.age}`)
+//     },
+// }
+
+// let person2 = {
+//     firstName: "Veeral",
+//     lastName: "Ranpura",
+//     age: "28",
+//     employed: true,
+//     isEmployed: function(){
+//         console.log(this.employed)
+//     },
+//     sayData: function(){
+//         console.log(`My name is ${this.firstName, this.lastName}, and my age is ${this.age}`)
+//     },
+// }
+
+
+// console.log(person1);
+// person1.sayData();
+// person2.sayData();
