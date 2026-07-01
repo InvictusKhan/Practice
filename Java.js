@@ -434,3 +434,25 @@
 //  function odd(element){
 //     return element % 2;
 //  }
+
+// function hello(callback){
+//     console.log(`Hello`);
+//     callback();
+// }
+
+
+// function bye(){
+//     console.log(`bye`);
+// }
+// hello(bye);
+
+// let person1 = {
+//     firstName: "Fasih",
+//     lastName: "Khan",
+//     age: 32,
+//     eat: function(){
+//         console.log("Fasih eats")
+//     },
+// }
+// console.log(person1);
+// person1.eat()
