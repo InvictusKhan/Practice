@@ -381,14 +381,56 @@
 // }
 
 
-let hello = () => {
-    console.log(`Hello`);
-}
+// let hello = () => {
+//     console.log(`Hello`);
+// }
 
-hello(
+// hello(
 
-)
-let bye = () => {
-    console.log(`Bye`);
-}
-bye()
+// )
+// let bye = () => {
+//     console.log(`Bye`);
+// }
+// bye()
+
+// let hello = () => console.log(`hello`);
+// hello()
+
+// let name = (first, last) => console.log(first, last);
+// name(`Fasih`, `Khan`);
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let result = numbers.reduce(add);
+// console.log(result);
+
+
+
+// function add(previous, next){
+//     return previous + next;
+// }
+
+//  let numbers = [1, 2, 3, 4, 5];
+
+ 
+//  let answer = numbers.forEach(double);
+//  numbers.forEach(display);
+ 
+
+
+//  function double(element, index, array){
+//     return array[index] = element * 2;
+//  }
+// function display(element){
+//     console.log(element);
+// }
+
+//  let numbers = [1, 2, 3, 4, 5];
+
+//  let odd1 = numbers.filter(odd);
+//  console.log(odd1);
+
+
+//  function odd(element){
+//     return element % 2;
+//  }
