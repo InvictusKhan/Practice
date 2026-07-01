@@ -379,3 +379,16 @@
 // function sum(previous, next){
 //     return previous + next;
 // }
+
+
+let hello = () => {
+    console.log(`Hello`);
+}
+
+hello(
+
+)
+let bye = () => {
+    console.log(`Bye`);
+}
+bye()
