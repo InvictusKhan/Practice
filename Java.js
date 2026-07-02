@@ -520,3 +520,33 @@
 // // console.log(game2.rating);
 
 // game1.play();
+
+
+// class Product{
+  
+//     constructor(name, price){
+//     this.name = name;
+//     this.price = price;
+//     }
+//     display(){
+//         console.log(`Name: ${this.name}`);
+//         console.log(`Name: $${this.price.toFixed(2)}`);
+//     }
+//     tax(){
+//         this.price = this.price + 50;
+//         console.log(`Price after tax $${this.price.toFixed(2)}`)
+//     }
+
+// }
+
+// let product1 = new Product(`Steamdeck`, 2999.50);
+// let product2 = new Product(`Iphone`, 4700.50);
+// product1.display();
+// product1.tax();
+// product2.display();
+
+
+
+
+
+
