@@ -488,3 +488,35 @@
 // console.log(person1);
 // person1.sayData();
 // person2.sayData();
+
+// let person1 = {
+//     firstName: "fasiih",
+//     lastName: "Khan",
+//     age: 32,
+//     sayData: function(){console.log(`My name is ${this.firstName} ${this.lastName} and my age is ${this.age}`)},
+// }
+
+// // person1.sayData();
+
+
+// function Game(name, genre, rating){
+//     this.name = name;
+//     this.genre = genre;
+//     this.rating = rating;
+//     this.play = function (){console.log(`You love ${this.name}`);
+        
+//     }
+
+// }
+
+// let game1 = new Game("Sekiro", "Soulsborne", 10);
+// let game2 = new Game("Lies of P", "Soulslike", 10);
+// // console.log(game1.genre);
+// // console.log(game1.name);
+// // console.log(game1.rating);
+// // console.log(game1.play);
+// // console.log(game2.genre);
+// // console.log(game2.name);
+// // console.log(game2.rating);
+
+// game1.play();
