@@ -547,6 +547,66 @@
 
 
 
+// class Game{
+
+//     static tax = 10;
+
+//     constructor(name, price, rating){
+//         this.name = name;
+//         this.price = price;
+//         this.rating = rating;
+//         this.taxedPrice = function(price) {
+//         this.newPrice = Game.tax + price;
+         
+//         }
+//         this.display = function(){
+//             console.log(`The name of the game is ${this.name}, price is $${this.price}, and the rating is ${this.rating}, finally, the the final price is ${this.newPrice}`)
+//         }
+//     }
+// }
+
+
+// let game1 = new Game("Lies of P", 30, 10);
+
+// game1.taxedPrice(30);
+// game1.display();
 
 
 
+
+class Game{
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+
+    }
+}
+
+class Sekrio extends Game{
+    constructor(name, price, genre){
+        super(name, price)
+        this.genre = genre;
+    }
+}
+
+
+class LiesOfP extends Game{
+    constructor(name, price, genre){
+        super(name, price)
+        this.genre = genre;
+    }
+}
+
+class RE4 extends Game{
+    constructor(name, price, genre){
+        super(name, price)
+        this.genre = genre;
+    }
+}
+let sekiro = new Sekrio("Wolf", 30, "Action");
+let liesOfP = new LiesOfP("Hunter", 49, "Adventure");
+let re4 = new RE4("Leon", 50, "Zombie");
+
+console.log(sekiro);
+console.log(liesOfP);
+console.log(re4);
