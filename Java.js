@@ -574,39 +574,74 @@
 
 
 
-class Game{
-    constructor(name, price){
-        this.name = name;
-        this.price = price;
+// class Game{
+//     constructor(name, price){
+//         this.name = name;
+//         this.price = price;
 
+//     }
+// }
+
+// class Sekrio extends Game{
+//     constructor(name, price, genre){
+//         super(name, price)
+//         this.genre = genre;
+//     }
+// }
+
+
+// class LiesOfP extends Game{
+//     constructor(name, price, genre){
+//         super(name, price)
+//         this.genre = genre;
+//     }
+// }
+
+// class RE4 extends Game{
+//     constructor(name, price, genre){
+//         super(name, price)
+//         this.genre = genre;
+//     }
+// }
+// let sekiro = new Sekrio("Wolf", 30, "Action");
+// let liesOfP = new LiesOfP("Hunter", 49, "Adventure");
+// let re4 = new RE4("Leon", 50, "Zombie");
+
+// console.log(sekiro);
+// console.log(liesOfP);
+// console.log(re4);
+
+
+    class Rectangle{
+        constructor(width, height){
+            this.height = height;
+            this.width = width;
+        }
+        set width(newWidth){
+            if(newWidth > 0){
+                this._width = newWidth;
+            }
+            else{
+                console.error("Width must be a positive number");
+            }
+        }
+        set height(newheight){
+            if(typeof newheight === "number"){
+                this._height = newheight;
+            }
+            else{
+                console.error("height must be a number");
+            }
+        }
+        get width(){
+            return this._width;
+        }
+        get height(){
+            return this._height;
+        }
     }
-}
 
-class Sekrio extends Game{
-    constructor(name, price, genre){
-        super(name, price)
-        this.genre = genre;
-    }
-}
+    let rectangle = new Rectangle(45, 50);
 
-
-class LiesOfP extends Game{
-    constructor(name, price, genre){
-        super(name, price)
-        this.genre = genre;
-    }
-}
-
-class RE4 extends Game{
-    constructor(name, price, genre){
-        super(name, price)
-        this.genre = genre;
-    }
-}
-let sekiro = new Sekrio("Wolf", 30, "Action");
-let liesOfP = new LiesOfP("Hunter", 49, "Adventure");
-let re4 = new RE4("Leon", 50, "Zombie");
-
-console.log(sekiro);
-console.log(liesOfP);
-console.log(re4);
+    console.log(rectangle.height);
+    console.log(rectangle.width);
