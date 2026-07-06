@@ -691,17 +691,34 @@
 // console.log(bottle);
 
 
+// const person = {
+//     firstName: "Fasih",
+//     secondName: "Khan",
+//     age: 32,
+// }
+
+
+// function displayperson({firstName, secondName, age}){
+//     console.log(firstName);
+//     console.log(secondName);
+//     console.log(age);
+// }
+
+// displayperson(person);
+
+
 const person = {
     firstName: "Fasih",
     secondName: "Khan",
-    age: 32,
+    age: "32",
+    hobbies: ["Playing", "Eating", "coding"],
+    address: {
+        street: "Sheikh Zayed Road",
+        Building: "Sama Tower",
+        Floor: "4th",
+    }
+    
 }
 
-
-function displayperson({firstName, secondName, age}){
-    console.log(firstName);
-    console.log(secondName);
-    console.log(age);
-}
-
-displayperson(person);
+console.log(person.hobbies);
+console.log(person.hobbies[2]);
