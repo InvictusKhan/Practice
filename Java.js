@@ -612,36 +612,62 @@
 // console.log(re4);
 
 
+    // class Rectangle{
+    //     constructor(width, height){
+    //         this.height = height;
+    //         this.width = width;
+    //     }
+    //     set width(newWidth){
+    //         if(newWidth > 0){
+    //             this._width = newWidth;
+    //         }
+    //         else{
+    //             console.error("Width must be a positive number");
+    //         }
+    //     }
+    //     set height(newheight){
+    //         if(typeof newheight === "number"){
+    //             this._height = newheight;
+    //         }
+    //         else{
+    //             console.error("height must be a number");
+    //         }
+    //     }
+    //     get width(){
+    //         return this._width;
+    //     }
+    //     get height(){
+    //         return this._height;
+    //     }
+    // }
+
+    // let rectangle = new Rectangle(45, 50);
+
+    // console.log(rectangle.height);
+    // console.log(rectangle.width);
+
+
+
     class Rectangle{
-        constructor(width, height){
-            this.height = height;
-            this.width = width;
-        }
-        set width(newWidth){
-            if(newWidth > 0){
-                this._width = newWidth;
+        constructor(height, width){
+        this.height = height;
+        this.width = width;
+    }
+        set height(newHeight){
+            
+            if(newHeight > 0){
+            this._height = newHeight;
             }
             else{
-                console.error("Width must be a positive number");
+                console.error("Height must be a positive number");
             }
-        }
-        set height(newheight){
-            if(typeof newheight === "number"){
-                this._height = newheight;
-            }
-            else{
-                console.error("height must be a number");
-            }
-        }
-        get width(){
-            return this._width;
-        }
-        get height(){
+        
+    }
+         get height(){
+            
             return this._height;
-        }
+    }
     }
 
-    let rectangle = new Rectangle(45, 50);
-
-    console.log(rectangle.height);
-    console.log(rectangle.width);
+    let rectangle = new Rectangle(-51, 50);
+    console.log(rectangle);
