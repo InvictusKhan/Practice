@@ -648,26 +648,60 @@
 
 
 
-    class Rectangle{
-        constructor(height, width){
-        this.height = height;
-        this.width = width;
-    }
-        set height(newHeight){
+    // class Rectangle{
+    //     constructor(height, width){
+    //     this.height = height;
+    //     this.width = width;
+    // }
+    //     set height(newHeight){
             
-            if(newHeight > 0){
-            this._height = newHeight;
-            }
-            else{
-                console.error("Height must be a positive number");
-            }
+    //         if(newHeight > 0){
+    //         this._height = newHeight;
+    //         }
+    //         else{
+    //             console.error("Height must be a positive number");
+    //         }
         
-    }
-         get height(){
+    // }
+    //      get height(){
             
-            return this._height;
-    }
-    }
+    //         return this._height;
+    // }
+    // }
 
-    let rectangle = new Rectangle(-51, 50);
-    console.log(rectangle);
+    // let rectangle = new Rectangle(-51, 50);
+    // console.log(rectangle);
+
+
+// let a = 1;
+// let b = 2;
+
+// [a, b] = [b, a];
+
+// console.log(a, b);
+    
+//  let numbers = ["First", "Second", "Third", "Fourth", "Fifth"];
+//  [numbers[0], numbers[4]] = [numbers[4], numbers[0]];
+//  console.log(numbers);
+
+   
+// let numbers = ["First", "Second", "Third", "Fourth", "Fifth"];
+
+// const [bottle, calculator, laptop, tissue, mouse] = numbers;
+// console.log(bottle);
+
+
+const person = {
+    firstName: "Fasih",
+    secondName: "Khan",
+    age: 32,
+}
+
+
+function displayperson({firstName, secondName, age}){
+    console.log(firstName);
+    console.log(secondName);
+    console.log(age);
+}
+
+displayperson(person);
