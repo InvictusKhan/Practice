@@ -745,23 +745,31 @@
 // games.forEach(show);
 // console.log(names);
 
-const games = [
-  {Name: "Lies of P", Genre: "Action"},
-  {Name: "Sekiro", Genre: "Souls"},
-  {Name: "RE8", Genre: "Horror"},
-  {Name: "Uncharted", Genre: "Adventure"},
-  {Name: "RE4", Genre: "Action"}
-];
+// const games = [
+//   {Name: "Lies of P", Genre: "Action"},
+//   {Name: "Sekiro", Genre: "Souls"},
+//   {Name: "RE8", Genre: "Horror"},
+//   {Name: "Uncharted", Genre: "Adventure"},
+//   {Name: "RE4", Genre: "Action"}
+// ];
 
-function getName(game){
-    return game.Name;
-}
+// function getName(game){
+//     return game.Name;
+// }
 
-function showGame(game){
-    console.log(game.Name);
-}
+// function showGame(game){
+//     console.log(game.Name);
+// }
 
-const allNames = games.map(getName);
-console.log(allNames);
+// const allNames = games.map(getName);
+// console.log(allNames);
 
-games.forEach(showGame);
+// games.forEach(showGame);
+
+
+let numbers = [1, 8, 6, 5, 10];
+
+numbers.sort(function(a, b){
+    return a - b;
+});
+console.log(numbers)
