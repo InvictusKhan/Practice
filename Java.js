@@ -767,9 +767,13 @@
 // games.forEach(showGame);
 
 
-let numbers = [1, 8, 6, 5, 10];
+// let numbers = [1, 8, 6, 5, 10];
 
-numbers.sort(function(a, b){
-    return a - b;
-});
-console.log(numbers)
+// numbers.sort(function(a, b){
+//     return a - b;
+// });
+// console.log(numbers)
+
+const date = new Date();
+
+console.log(date);
