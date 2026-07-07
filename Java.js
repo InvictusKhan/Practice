@@ -774,6 +774,51 @@
 // });
 // console.log(numbers)
 
-const date = new Date();
+// const date = new Date();
 
-console.log(date);
+// console.log(date);
+
+
+// function outer(){
+//     let message = "Hello";
+//     function inner(){
+//         console.log(message);
+//     }
+//     inner();
+// }
+// outer()
+
+
+
+// function increment(){
+//     let count = 0;
+    
+
+//     function run(){
+//         count++;
+//         console.log(count);
+    
+//     }
+//     return run;
+// }
+// const counter = increment();
+// counter();
+
+
+function adding(){
+    let count = 0;
+    function increment(){
+        count++;
+        console.log(`The amount is $${count}`);
+    }
+    return increment;
+}
+const counter = adding();
+counter();
+counter();
+counter();
+counter();
+counter();
+counter();
+counter();
+
