@@ -707,18 +707,61 @@
 // displayperson(person);
 
 
-const person = {
-    firstName: "Fasih",
-    secondName: "Khan",
-    age: "32",
-    hobbies: ["Playing", "Eating", "coding"],
-    address: {
-        street: "Sheikh Zayed Road",
-        Building: "Sama Tower",
-        Floor: "4th",
-    }
+// const person = {
+//     firstName: "Fasih",
+//     secondName: "Khan",
+//     age: "32",
+//     hobbies: ["Playing", "Eating", "coding"],
+//     address: {
+//         street: "Sheikh Zayed Road",
+//         Building: "Sama Tower",
+//         Floor: "4th",
+//     }
     
+// }
+
+// console.log(person.hobbies);
+// console.log(person.hobbies[2]);
+
+// const games = [{Name: "Lies of P", Genre: "Action"}, 
+//               {Name: "Sekiro", Genre: "Souls"}, 
+//               {Name: "RE8", Genre: "Horror"}, 
+//               {Name: "Uncharted", Genre: "Adventure"},
+//               {Name: "RE4", Genre: "Action"}]
+
+
+// for(i = 0; i <= games.length; i++){
+//     console.log(games[i]);
+// }
+
+// function names(games){
+//     return games.Name;
+// }
+
+// function show(){
+//     console.log(names);
+// }
+// games.map(names);
+// games.forEach(show);
+// console.log(names);
+
+const games = [
+  {Name: "Lies of P", Genre: "Action"},
+  {Name: "Sekiro", Genre: "Souls"},
+  {Name: "RE8", Genre: "Horror"},
+  {Name: "Uncharted", Genre: "Adventure"},
+  {Name: "RE4", Genre: "Action"}
+];
+
+function getName(game){
+    return game.Name;
 }
 
-console.log(person.hobbies);
-console.log(person.hobbies[2]);
+function showGame(game){
+    console.log(game.Name);
+}
+
+const allNames = games.map(getName);
+console.log(allNames);
+
+games.forEach(showGame);
