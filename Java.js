@@ -805,20 +805,54 @@
 // counter();
 
 
-function adding(){
-    let count = 0;
-    function increment(){
-        count++;
-        console.log(`The amount is $${count}`);
-    }
-    return increment;
-}
-const counter = adding();
-counter();
-counter();
-counter();
-counter();
-counter();
-counter();
-counter();
+// function adding(){
+//     let count = 0;
+//     function increment(){
+//         count++;
+//         console.log(`The amount is $${count}`);
+//     }
+//     return increment;
+// }
+// const counter = adding();
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+function walk(){
+   return new Promise(function(resolve, reject){
+        
+        resolve("You walked the dog");
 
+    })      
+    
+}
+
+function clean(){
+    return new Promise(function(resolve, reject){
+        resolve("You cleaned the home");
+    })
+}
+
+function eat(){
+    return new Promise(function(resolve, reject){
+    
+        resolve("You ate food");
+    })
+}
+
+walk()
+    .then(value => {
+        console.log(value);
+        return clean();
+    })
+    .then(value => {
+        console.log(value);
+        return eat();
+    })
+    .then(value => {
+        console.log(value);
+        console.log("Task Finished");
+    });
