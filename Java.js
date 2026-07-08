@@ -821,38 +821,71 @@
 // counter();
 // counter();
 // counter();
-function walk(){
-   return new Promise(function(resolve, reject){
+// function walk(){
+//    return new Promise(function(resolve, reject){
         
-        resolve("You walked the dog");
+//         resolve("You walked the dog");
 
-    })      
+//     })      
     
-}
+// }
 
-function clean(){
-    return new Promise(function(resolve, reject){
-        resolve("You cleaned the home");
-    })
-}
+// function clean(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You cleaned the home");
+//     })
+// }
 
-function eat(){
-    return new Promise(function(resolve, reject){
+// function eat(){
+//     return new Promise(function(resolve, reject){
     
-        resolve("You ate food");
-    })
+//         resolve("You ate food");
+//     })
+// }
+
+// walk()
+//     .then(value => {
+//         console.log(value);
+//         return clean();
+//     })
+//     .then(value => {
+//         console.log(value);
+//         return eat();
+//     })
+//     .then(value => {
+//         console.log(value);
+//         console.log("Task Finished");
+//     });
+
+// try{
+//     console.log("Hello");
+// }
+// catch(error){
+//     console.error(error);
+// }
+// finally{
+//     console.log("Runs no matter what");
+// }
+// console.log("You have reached the end");
+
+
+
+
+try{
+
+let x = 20;
+let y = 30;
+    if(x < 30){
+        throw new Error("X cant be greater than 20");
+
+    }
+    console.log(x, y);
+
 }
 
-walk()
-    .then(value => {
-        console.log(value);
-        return clean();
-    })
-    .then(value => {
-        console.log(value);
-        return eat();
-    })
-    .then(value => {
-        console.log(value);
-        console.log("Task Finished");
-    });
+catch(error){
+    console.error(error);
+
+}
+
+console.log("End of program");
