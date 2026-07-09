@@ -996,50 +996,99 @@
 // walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
 
 
-function walk(){
+// function walk(){
 
-    return new Promise (function(resolve, reject){
-        const isWalked = false;
-       if(isWalked){
-    resolve("You Walked");
-       }
-       else{
-        reject("You didnt walk");
-       }
+//     return new Promise (function(resolve, reject){
+//         const isWalked = false;
+//        if(isWalked){
+//     resolve("You Walked");
+//        }
+//        else{
+//         reject("You didnt walk");
+//        }
         
-    });
-}
+//     });
+// }
 
-function clean(){
-    return new Promise(function(resolve, reject){
-        resolve("You Cleaned");
-    });
-}
-function ate(){
-    return new Promise(function(resolve, reject){
-        resolve("You Ate");
-    });
-}
+// function clean(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You Cleaned");
+//     });
+// }
+// function ate(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You Ate");
+//     });
+// }
 
-// walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
+// // walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
 
 
-async function doTask(){
-  try{
-    const goWalk = await walk();
-    console.log(goWalk);
+// async function doTask(){
+//   try{
+//     const goWalk = await walk();
+//     console.log(goWalk);
   
-    const goClean = await clean();
-    console.log(goClean);
+//     const goClean = await clean();
+//     console.log(goClean);
 
-    const goEat = await ate();
-    console.log(goEat);
+//     const goEat = await ate();
+//     console.log(goEat);
 
-    console.log("Task Finished");
-}
-catch(error){
-console.error(error)
-}
-}
+//     console.log("Task Finished");
+// }
+// catch(error){
+// console.error(error)
+// }
+// }
 
-doTask();
+// doTask();
+
+
+
+// function practice(){
+//     return new Promise(function(resolve, reject){
+//         let isPractice = false;
+
+//         if(isPractice){
+//                 resolve("You practiced Coding")
+//         }
+//         else{
+//             reject("You Didnt Practice");
+//         }
+        
+//     })
+// }
+
+// function git(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You pushed to Github")
+//     })
+// }
+
+// function revise(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You revised Async/Await")
+//     })
+// }
+
+
+
+// async function display(){
+// try{
+//     const didPractice = await practice();
+//     console.log(didPractice);
+
+//     const didGit = await git();
+//     console.log(didGit);
+
+//     const didRevise = await revise();
+//     console.log(didRevise);
+// }
+// catch(error){
+//     console.log(error);
+// }
+// }
+
+
+// display();
