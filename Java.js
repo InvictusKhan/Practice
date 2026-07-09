@@ -871,21 +871,98 @@
 
 
 
-try{
+// try{
 
-let x = 20;
-let y = 30;
-    if(x < 30){
-        throw new Error("X cant be greater than 20");
+// let x = 20;
+// let y = 30;
+//     if(x < 30){
+//         throw new Error("X cant be greater than 20");
 
+//     }
+//     console.log(x, y);
+
+// }
+
+// catch(error){
+//     console.error(error);
+
+// }
+
+// console.log("End of program");
+
+
+// function makeCounter(){
+//     let count = 0;
+
+//     function increment(){
+//         count++;
+//         console.log(count);
+//     }
+//     return increment;
+// }
+// let counter = makeCounter();
+// counter();
+// counter();
+// counter();
+
+// let x = 10;
+// console.log(Math.sqrt(x));
+
+
+// try{
+   
+//     function sqrt(x){
+//     let result = Math.sqrt(x);
+//     return result;
+// }
+    
+//     if(result < 0)
+//         throw new Error("Value can't be Negative");
+// }
+
+// catch(error){
+//     console.error(error);
+// }
+
+// let answer = sqrt(-100);
+// console.log(answer);
+
+
+
+
+ 
+
+// try{
+   
+   
+// if(x < 0){
+//     throw new Error("Input cant be a Negative")
+
+//      function sqrt(x){
+//         return Math.sqrt(x);
+//     }
+
+
+// }
+// }
+// catch(error){
+//     console.error(error);
+// }
+
+
+
+function sqrt(x){
+    if(x < 0){
+        throw new Error("Input cant be negative");
     }
-    console.log(x, y);
-
+    return Math.sqrt(x);
 }
 
+try{
+    let answer = sqrt(100);
+    console.log(`The Square-root is ${answer}`);
+}
 catch(error){
     console.error(error);
-
 }
-
-console.log("End of program");
+console.log("Program has ended");
