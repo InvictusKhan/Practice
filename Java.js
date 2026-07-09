@@ -951,18 +951,46 @@
 
 
 
-function sqrt(x){
-    if(x < 0){
-        throw new Error("Input cant be negative");
-    }
-    return Math.sqrt(x);
-}
+// function sqrt(x){
+//     if(x < 0){
+//         throw new Error("Input cant be negative");
+//     }
+//     return Math.sqrt(x);
+// }
 
-try{
-    let answer = sqrt(100);
-    console.log(`The Square-root is ${answer}`);
-}
-catch(error){
-    console.error(error);
-}
-console.log("Program has ended");
+// try{
+//     let answer = sqrt(100);
+//     console.log(`The Square-root is ${answer}`);
+// }
+// catch(error){
+//     console.error(error);
+// }
+// console.log("Program has ended");
+
+
+// function walk(){
+
+//     return new Promise (function(resolve, reject){
+//         const isWalked = false;
+//        if(isWalked){
+//     resolve("You Walked");
+//        }
+//        else{
+//         reject("You didnt walk");
+//        }
+        
+//     });
+// }
+
+// function clean(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You Cleaned");
+//     });
+// }
+// function ate(){
+//     return new Promise(function(resolve, reject){
+//         resolve("You Ate");
+//     });
+// }
+
+// walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
