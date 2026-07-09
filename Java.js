@@ -994,3 +994,52 @@
 // }
 
 // walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
+
+
+function walk(){
+
+    return new Promise (function(resolve, reject){
+        const isWalked = false;
+       if(isWalked){
+    resolve("You Walked");
+       }
+       else{
+        reject("You didnt walk");
+       }
+        
+    });
+}
+
+function clean(){
+    return new Promise(function(resolve, reject){
+        resolve("You Cleaned");
+    });
+}
+function ate(){
+    return new Promise(function(resolve, reject){
+        resolve("You Ate");
+    });
+}
+
+// walk().then(value => {console.log(value); return clean().then(value => {console.log(value); return ate().then(value => console.log(value))})}).catch(error => {console.error(error)});
+
+
+async function doTask(){
+  try{
+    const goWalk = await walk();
+    console.log(goWalk);
+  
+    const goClean = await clean();
+    console.log(goClean);
+
+    const goEat = await ate();
+    console.log(goEat);
+
+    console.log("Task Finished");
+}
+catch(error){
+console.error(error)
+}
+}
+
+doTask();
