@@ -1150,3 +1150,33 @@
 // fetch("person.json")
 //     .then(response => response.json())
 //     .then(value => console.log(value))
+
+
+// fetch("https://pokeapi.co/api/v2/pokemon/blaziken")
+//     .then(response => {
+
+//         if(!response.ok){
+//             throw new Error("Not a Pokemon");
+//         }
+//         return response.json();
+//     })
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error));
+
+
+async function fetchData() {
+
+    try{
+        const response = await fetch("https://pokeapi.co/api/v2/pokemon/blaziken");
+        if(!response.ok){
+            throw new Error("This is not a pokemon");       
+        }
+        const data = await response.json();
+        console.log(data);
+    }
+    catch(error){
+        console.error(error);
+    }
+}
+
+fetchData();
