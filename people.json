@@ -1,0 +1,13 @@
+[
+    {
+    "name": "Khan",
+    "age": "23",
+    "isLearning": false
+    },
+
+    {
+    "name": "Essa",
+    "age": "4",
+    "isLearning": true
+    }
+]
