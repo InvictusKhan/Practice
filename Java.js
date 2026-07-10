@@ -1092,3 +1092,61 @@
 
 
 // display();
+
+// const names = ["Fasih", "Khan", "Essa", "Daneen"];
+// const person = {   
+//     "name": "Fasih",
+//     "age": "32",
+//     "isLearning": true,
+//     "hobbies": ["Learning", "Gym", "Guitar"]};
+
+// const people =   [
+//     {
+//     "name": "Khan",
+//     "age": "23",
+//     "isLearning": false
+//     },
+
+//     {
+//     "name": "Essa",
+//     "age": "4",
+//     "isLearning": true
+//     },
+
+//     {
+//     "name": "Daneen",
+//     "age": "3",
+//     "isLearning": false
+//     }
+// ];  
+
+// const jsonStringNames = JSON.stringify(names);
+// const jsonStringPerson = JSON.stringify(person);
+// const jsonStringPeople = JSON.stringify(people);
+
+// console.log(names);
+// console.log(person);
+// console.log(people);
+
+
+
+
+// const names = `["Fasih", "Khan", "Essa", "Daneen"]`;
+// const person = `{"name": "Fasih","age": "32","isLearning": true,"hobbies": ["Learning", "Gym", "Guitar"]}`;
+// const people = `[{"name": "Khan","age": "23","isLearning": false},{"name": "Essa","age": "4","isLearning": true},{"name": "Daneen","age": "3","isLearning": false}]`;  
+
+// // const jsonStringNames = JSON.stringify(names);
+// // const jsonStringPerson = JSON.stringify(person);
+// // const jsonStringPeople = JSON.stringify(people);
+
+// const jsonParseNames = JSON.parse(names);
+// const jsonParsePerson = JSON.parse(person);
+// const jsonParsePeople = JSON.parse(people);
+
+// console.log(jsonParseNames);
+// console.log(jsonParsePerson);
+// console.log(jsonParsePeople);
+
+// fetch("person.json")
+//     .then(response => response.json())
+//     .then(value => console.log(value))
