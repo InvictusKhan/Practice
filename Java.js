@@ -1164,19 +1164,86 @@
 //     .catch(error => console.log(error));
 
 
-async function fetchData() {
+// async function fetchData() {
 
-    try{
-        const response = await fetch("https://pokeapi.co/api/v2/pokemon/blaziken");
-        if(!response.ok){
-            throw new Error("This is not a pokemon");       
-        }
-        const data = await response.json();
-        console.log(data);
-    }
-    catch(error){
-        console.error(error);
-    }
+//     try{
+//         const response = await fetch("https://pokeapi.co/api/v2/pokemon/blaziken");
+//         if(!response.ok){
+//             throw new Error("This is not a pokemon");       
+//         }
+//         const data = await response.json();
+//         console.log(data);
+//     }
+//     catch(error){
+//         console.error(error);
+//     }
+// }
+
+// fetchData();
+
+// async function fetchData(){
+
+// try{
+// const response = await fetch("https://pokeapi.co/api/v2/pokemon/charizard");
+
+//     if(!response.ok){
+//         throw new Error("This is not a Pokemon");
+//     }
+//     const data = await response.json();
+//     console.log(data);
+
+// }
+// catch(error){
+//     console.error(error);
+// }
+// }
+
+// fetchData();
+
+
+
+
+// async function pokemon(){
+    
+// try{
+// const response = await fetch("https://pokeapi.co/api/v2/pokemon/feraligatr");
+//     if(!response.ok){
+//         throw new Error("Check Spellings");
+//     }
+
+// const data = await response.json();
+// console.log(data);
+// }
+// catch(error){
+//     console.error(error);
+
+// }
+// }
+// pokemon();
+
+
+async function rickAndMorty(){
+try{
+const response = await fetch("https://rickandmortyapi.com/api/character/696");
+
+if(!response.ok){
+    throw new Error("Check URL");
+}
+const data = await response.json();
+console.log(data.name);
+console.log(data.species);
+console.log(data.gender);
+console.log(data.type);
+console.log(data.status);
+console.log(data.id);
+console.log(data.location.name);
+console.log(data.image);
+console.log(data.origin.name);
+
+}
+catch(error){
+    console.error(error);
+}
 }
 
-fetchData();
+rickAndMorty();
